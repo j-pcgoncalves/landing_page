@@ -4,45 +4,66 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="theme-color" content="#000000" />
+    <!-- Favicon-->
 		<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+    <!-- Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Tailwind CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 		<title>Landing Page</title>
 	</head>
+
 	<body class="text-gray-800 antialiased">
+
+    <!-- Navigation -->
 		<nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
 			<div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <!-- Nav Left Side -->
 				<div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-					<a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation">Tailwind Starter Kit</a>
+					<a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation">
+            <!-- Nav Title -->
+            Creative Design
+          </a>
+          <!-- Hamburguer Menu (Mobile) -->
 					<button
 						class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
 						type="button"
 						onclick="toggleNavbar('example-collapse-navbar')"
 					>
+            <!-- Icon -->
 						<i class="text-white fas fa-bars"></i>
 					</button>
 				</div>
 				<div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="example-collapse-navbar">
+          <!-- Nav Right Side -->
 					<ul class="flex flex-col lg:flex-row list-none mr-auto">
+            <!-- Social Media Button -->
 						<li class="flex items-center">
 							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/landing">
+                <!-- Icon -->
 								<i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i> Docs
 							</a>
 						</li>
 					</ul>
 					<ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+            <!-- Social Media Button -->
 						<li class="flex items-center">
 							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <!-- Icon -->
 								<i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Share</span>
 							</a>
 						</li>
+            <!-- Social Media Button -->
 						<li class="flex items-center">
 							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <!-- Icon -->
 								<i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Tweet</span>
 							</a>
 						</li>
+            <!-- Social Media Button -->
 						<li class="flex items-center">
 							<a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" href="#pablo">
+                <!-- Icon -->
 								<i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg"></i><span class="lg:hidden inline-block ml-2">Star</span>
 							</a>
 						</li>
